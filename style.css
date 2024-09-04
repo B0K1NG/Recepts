@@ -36,12 +36,12 @@ header {
     padding: 1.7rem 6rem;
 }
 
-.logo h1 .mamos,
-.logo h1 .receptai {
+.logo h1 .logo1,
+.logo h1 .logo2 {
     display: block;
 }
 
-.logo h1 .receptai {
+.logo h1 .logo2 {
     margin-top: 0.5rem;
 }
 
@@ -80,7 +80,7 @@ header {
     padding: 20px;
 }
 
-.receptas {
+.recept {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -88,51 +88,51 @@ header {
     margin-bottom: 20px;
 }
 
-.receptas h2 {
+.recept h2 {
     margin-top: 0;
     color: #4a4a4a;
 }
 
-.receptas .content {
+.recept .content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 15px;
 }
 
-.receptas img {
+.recept img {
     max-width: 40%;
     height: auto;
     border-radius: 5px;
 }
 
-.receptas .text {
+.recept .text {
     flex: 1;
     position: relative;
 }
 
-.receptas p {
+.recept p {
     margin-top: 0;
     color: #666;
     line-height: 1.6;
 }
 
-.receptas img {
+.recept img {
     width: 15rem;
     height: 10rem;
 }
 
-.receptas p:first-of-type {
+.recept p:first-of-type {
     font-size: 1.2em;
     font-weight: bold;
 }
 
-.receptas p::first-line {
+.recept p::first-line {
     text-transform: uppercase;
     word-spacing: 1rem; 
 }
 
-.receptas p::first-letter {
+.recept p::first-letter {
     font-size: 2em;
     font-weight: bold;
     float: left;
@@ -176,14 +176,14 @@ header {
     color: #4a4a4a;
 }
 
-.receptas .highlighted,
+.recept .highlighted,
 .menu-choice .highlighted {
     background-color: #94d9d0;
     border-radius: 5px;
     display: inline-block;
 }
 
-.receptas .highlighted {
+.recept .highlighted {
     background-color: #94d9d0;
     border-radius: 5px;
     display: inline-block;
@@ -200,7 +200,7 @@ header {
     margin-left: 5px;
 }
 
-.reklama img {
+.ad img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
