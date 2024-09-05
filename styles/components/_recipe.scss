@@ -1,0 +1,77 @@
+.recipe {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 1250px;
+    width: 1250px;
+
+    &__title {
+        margin-top: 0;
+        color: #4a4a4a;
+
+        &--highlighted {
+            background-color: #94d9d0;
+            border-radius: 5px;
+            display: inline-block;
+            text-align: center;
+            width: 27%;
+            box-sizing: border-box;
+            padding: 0.3rem;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    &__image {
+        max-width: 40%;
+        height: auto;
+        border-radius: 5px;
+        width: 15rem;
+        height: 10rem;
+    }
+
+    &__text {
+        flex: 1;
+        position: relative;
+    }
+
+    &__description {
+        margin-top: 0;
+        color: #666;
+        line-height: 1.6;
+
+        &:first-of-type {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        &::first-line {
+            text-transform: uppercase;
+            word-spacing: 1rem;
+        }
+
+        &::first-letter {
+            font-size: 2em;
+            font-weight: bold;
+            float: left;
+            line-height: 0.8;
+            margin-right: 0.1em;
+        }
+    }
+
+    &__rating {
+        color: #ffd700;
+        font-size: 1.7em;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: translateY(0.6rem);
+    }
+}

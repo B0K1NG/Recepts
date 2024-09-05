@@ -1,0 +1,32 @@
+.nav {
+    &__menu {
+        text-align: center;
+        font-size: 1.3rem;
+        background-color: rgb(222, 225, 243);
+    }
+
+    &__item {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0;
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            background-color: lightsalmon;
+            transition: 0.3s;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        &--active {
+            background-color: #94d9d0;
+            border-radius: 4px;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #333;
+    }
+}
