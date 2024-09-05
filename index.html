@@ -1,203 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIKO Receptai</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
-<body>
-    <div id="container">
-    <header>
-        <div id="header">
-            <div class="logo">
-                <h1>
-                    <span class="logo1">Mamos</span>
-                    <span class="logo2">receptai</span>
-                </h1>
+
+<body class="body">
+    <div class="container">
+        <header class="header">
+            <div class="header__content">
+                <div class="logo">
+                    <h1 class="logo__text">
+                        <span class="logo__text--primary">Mamos</span>
+                        <span class="logo__text--secondary">receptai</span>
+                    </h1>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <nav>
-        <div class="top-menu">
-            <p class="highlighted">Naujausi</p>
-            <p>Dienos receptas</p>
-            <p>Geriausiai įvertinti</p>
-            <p>Savaitės top</p>
-            <p>Pasidalinti receptu</p>
-        </div>
-    </nav>
+        <nav class="nav">
+            <ul class="nav__menu">
+                <li class="nav__item nav__item--active">Naujausi</li>
+                <li class="nav__item"><a href="/html/daily_recipe.html" class="nav__link">Dienos receptas</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Geriausiai įvertinti</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Savaitės top</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Pasidalinti receptu</a></li>
+            </ul>
+        </nav>
 
-    <main>
-        <div id="main">
-            <div class="recept">
-                <h2 class="highlighted">Grybų padažas</h2>
-                <div class="content">
-                    <img src="./images/grybu-padazas.jpg" alt="Grybų padažas">
-                    <div class="text">
-                        <p>Supjaustyti svogūną, pakepinti, grybus išvirti, supjaustyti, viską sumaišyti ir patroškinti. Svieste
-                            pakepinti miltus,
-                            kol pagels, atskiesti šaltu sultiniu ir užvirti. Į pakepintus miltus sudėti grybus, pavirinti, po to
-                            supilti grietinę,
-                            petražoles ir užvirti.</p>
-                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <main class="main">
+            <div class="main__content">
+                <article class="recipe">
+                    <h2 class="recipe__title recipe__title--highlighted">Grybų padažas</h2>
+                    <div class="recipe__content">
+                        <img class="recipe__image" src="/assets/images/grybu-padazas.jpg" alt="Grybų padažas">
+                        <div class="recipe__text">
+                            <p class="recipe__description">Supjaustyti svogūną, pakepinti, grybus išvirti, supjaustyti,
+                                viską sumaišyti ir patroškinti. Svieste
+                                pakepinti miltus,
+                                kol pagels, atskiesti šaltu sultiniu ir užvirti. Į pakepintus miltus sudėti grybus,
+                                pavirinti, po to
+                                supilti grietinę,
+                                petražoles ir užvirti.</p>
+                            <div class="recipe__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <h2 class="recipe__title recipe__title--highlighted">Obuolių padažas</h2>
+                    <div class="recipe__content">
+                        <img class="recipe__image" src="/assets/images/obuoliu-padazas.jpg" alt="Obuolių padažas">
+                        <div class="recipe__text">
+                            <p class="recipe__description">Obuolius nulupti, išimti sėklalizdžius ir supjaustyti
+                                griežinėliais. Į vandenį supilti cukrų ir obuolių
+                                griežinėlius.
+                                Pavirinti. Po to mediniu šaukštu išplakti iki standumo. Tiekti pašildytą.</p>
+                            <div class="recipe__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <h2 class="recipe__title recipe__title--highlighted">Bulvės folijoje</h2>
+                    <div class="recipe__content">
+                        <img class="recipe__image" src="/assets/images/bulves-folijoje.jpg" alt="Bulvės folijoje">
+                        <div class="recipe__text">
+                            <p class="recipe__description">Bulves išvirtas pasūdytame vandenyje suvyniokite į foliją ir
+                                kepkite ant grotelių 20-25 min. Susmulkintus
+                                svogūnus,
+                                česnaką, papriką ir pomidorus užpilkite pomidorų padažu, apibarstykite prieskoniais ir
+                                apšlakstykite
+                                aliejumi ir citrinų
+                                sultimis, išmaišykite. Supjaustytą kumpį kubeliais sumaišykite su grietine ir
+                                prieskoniais. Kai bulves
+                                iškeps,
+                                atvyniokite foliją, bulves įpjaukite ir išskobkite truputį minkštimo. Į gautą įdubą
+                                dėkite kumpį su
+                                grietine, ant
+                                viršaus - daržoves. Apibarstykite kapotais žalumunais.</p>
+                            <div class="recipe__rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <h2 class="recipe__title recipe__title--highlighted">Bulviniai kibinai</h2>
+                    <div class="recipe__content">
+                        <img class="recipe__image" src="/assets/images/kibinai.jpg" alt="Bulviniai kibinai">
+                        <div class="recipe__text">
+                            <p class="recipe__description">Virtas bulves gerai sutrinti arba sumalti, žalias sutarkuoti.
+                                Varškę išsukti su kiaušiniais, supilti
+                                grietinę, suberti
+                                prieskonius. Visus produktus suminkyti, miltų beriant tiek, kad tešla nebūtų labai
+                                kieta. Išjos daryti
+                                kibinus, aptepti
+                                plaktu kiaušiniu, kepti orkaitėje arba keptuvėje su riebalais. Iškepusius užpilti
+                                grietinės ir sviesto
+                                padažu.</p>
+                            <div class="recipe__rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <h2 class="recipe__title recipe__title--highlighted">Kiaušinienė su grybais</h2>
+                    <div class="recipe__content">
+                        <img class="recipe__image" src="/assets/images/kiausiniene.jpg" alt="Kiaušinienė su grybais">
+                        <div class="recipe__text">
+                            <p class="recipe__description">Grybus išmirkyti ir išvirti pasūdytame vandenyje,
+                                susmulkinti. Keptuvėje pakepinti miltus su sviestu.
+                                Kiaušinius
+                                išplakti, įpilti pieno, sudėti grybus. Kepti ant silpnos ugnies. Patiekti pabarsčius
+                                petražolių
+                                lapeliais.</p>
+                            <div class="recipe__rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <h2 class="recipe__title recipe__title--highlighted">Aguonų sriuba</h2>
+                    <div class="recipe__content">
+                        <img class="recipe__image" src="/assets/images/aguonu_sriuba_su_skryliais.jpg"
+                            alt="Aguonų sriuba su skryliais">
+                        <div class="recipe__text">
+                            <p class="recipe__description">Aguonas nuplykykite 2-3 kartus karštu vandeniu. Nupylus
+                                vandenį, aguonas sugrūskite grūstuve arba 2-3
+                                kartus smulkiai
+                                permalkite mėsai malti skirta mašinėle. Paruoštas aguonas užpilkite šaltu virintu
+                                vandeniu. Išmaišę
+                                vandenį, nupilkite į
+                                kitą indą, o aguonas suvartokite kitur. Imant aguonų daugiau, pienas būna baltesnis ir
+                                tirštesnis. Į
+                                aguonų pieną
+                                suberkite cukrų ir gabalėlias supjaustytus riestainius. Sriubą ypač tinka valgyti
+                                vasarą.</p>
+                            <div class="recipe__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <h2 class="recipe__title recipe__title--highlighted">Braškių kokteilis</h2>
+                    <div class="recipe__content">
+                        <img class="recipe__image" src="/assets/images/braskiu-kokteilis.jpg" alt="Braškių kokteilis">
+                        <div class="recipe__text">
+                            <p class="recipe__description">Pieną su cukrumi užviriname ir atšaldome. Uogas ištriname per
+                                sietelį. Supilame pieną, grietinėlę, sultis
+                                ir viską
+                                išplakame. Išpilstome į taures.</p>
+                            <div class="recipe__rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="sidebar">
+                <div class="sidebar__content">
+                    <nav class="sidebar-menu">
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Apkepai</p>
+                            <p class="sidebar-menu__badge">Naujas</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Blynai</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Desertai</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Gėrimai</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Mėsos patiekalai</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Žuvies patiekalai</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Vegetariški</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Salotos</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Sriubos</p>
+                        </div>
+                        <div class="sidebar-menu__item">
+                            <img class="sidebar-menu__icon" src="/assets/images/bullet1.gif" alt="Raktas">
+                            <p class="sidebar-menu__text">Troškiniai</p>
+                        </div>
+                    </nav>
+
+                    <div class="sidebar__ad">
+                        <img class="sidebar__ad-image" src="/assets/images/reklama1.jpg" alt="Reklama 1">
                     </div>
                 </div>
-            </div>
+            </aside>
+        </main>
 
-            <div class="recept">
-                <h2 class="highlighted">Obuolių padažas</h2>
-                <div class="content">
-                <img src="./images/obuoliu-padazas.jpg" alt="Obuolių padažas">
-                <div class="text">
-                <p>Obuolius nulupti, išimti sėklalizdžius ir supjaustyti griežinėliais. Į vandenį supilti cukrų ir obuolių
-                    griežinėlius.
-                    Pavirinti. Po to mediniu šaukštu išplakti iki standumo. Tiekti pašildytą.</p>
-                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
+        <footer class="footer">
+            <div class="footer__content">
+                <p class="footer__text">&copy; Mamos receptai, 2024, Dominykas Pavlijus</p>
             </div>
-            </div>
-
-            <div class="recept">
-                <h2 class="highlighted">Bulvės folijoje</h2>
-                <div class="content">
-                <img src="./images/bulves-folijoje.jpg" alt="Bulvės folijoje">
-                <div class="text">
-                <p>Bulves išvirtas pasūdytame vandenyje suvyniokite į foliją ir kepkite ant grotelių 20-25 min. Susmulkintus
-                    svogūnus,
-                    česnaką, papriką ir pomidorus užpilkite pomidorų padažu, apibarstykite prieskoniais ir apšlakstykite
-                    aliejumi ir citrinų
-                    sultimis, išmaišykite. Supjaustytą kumpį kubeliais sumaišykite su grietine ir prieskoniais. Kai bulves
-                    iškeps,
-                    atvyniokite foliją, bulves įpjaukite ir išskobkite truputį minkštimo. Į gautą įdubą dėkite kumpį su
-                    grietine, ant
-                    viršaus - daržoves. Apibarstykite kapotais žalumunais.</p>
-                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-                </div>
-                </div>
-            </div>
-
-            <div class="recept">
-                <h2 class="highlighted">Bulviniai kibinai</h2>
-                <div class="content">
-                <img src="./images/kibinai.jpg" alt="Bulviniai kibinai">
-                <div class="text">
-                <p>Virtas bulves gerai sutrinti arba sumalti, žalias sutarkuoti. Varškę išsukti su kiaušiniais, supilti
-                    grietinę, suberti
-                    prieskonius. Visus produktus suminkyti, miltų beriant tiek, kad tešla nebūtų labai kieta. Išjos daryti
-                    kibinus, aptepti
-                    plaktu kiaušiniu, kepti orkaitėje arba keptuvėje su riebalais. Iškepusius užpilti grietinės ir sviesto
-                    padažu.</p>
-                <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
-                </div>
-                </div>
-            </div>
-
-            <div class="recept">
-                <h2 class="highlighted">Kiaušinienė su grybais</h2>
-                <div class="content">
-                <img src="./images/kiausiniene.jpg" alt="Kiaušinienė su grybais">
-                <div class="text">
-                <p>Grybus išmirkyti ir išvirti pasūdytame vandenyje, susmulkinti. Keptuvėje pakepinti miltus su sviestu.
-                    Kiaušinius
-                    išplakti, įpilti pieno, sudėti grybus. Kepti ant silpnos ugnies. Patiekti pabarsčius petražolių
-                    lapeliais.</p>
-                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-                </div>
-                </div>
-            </div>
-
-            <div class="recept">
-                <h2 class="highlighted">Aguonų sriuba</h2>
-                <div class="content">
-                <img src="./images/aguonu_sriuba_su_skryliais.jpg" alt="Aguonų sriuba su skryliais">
-                <div class="text">
-                <p>Aguonas nuplykykite 2-3 kartus karštu vandeniu. Nupylus vandenį, aguonas sugrūskite grūstuve arba 2-3
-                    kartus smulkiai
-                    permalkite mėsai malti skirta mašinėle. Paruoštas aguonas užpilkite šaltu virintu vandeniu. Išmaišę
-                    vandenį, nupilkite į
-                    kitą indą, o aguonas suvartokite kitur. Imant aguonų daugiau, pienas būna baltesnis ir tirštesnis. Į
-                    aguonų pieną
-                    suberkite cukrų ir gabalėlias supjaustytus riestainius. Sriubą ypač tinka valgyti vasarą.</p>
-                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-            </div>
-            </div>
-
-            <div class="recept">
-                <h2 class="highlighted">Braškių kokteilis</h2>
-                <div class="content">
-                <img src="./images/braskiu-kokteilis.jpg" alt="Braškių kokteilis">
-                <div class="text">
-                <p>Pieną su cukrumi užviriname ir atšaldome. Uogas ištriname per sietelį. Supilame pieną, grietinėlę, sultis
-                    ir viską
-                    išplakame. Išpilstome į taures.</p>
-                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                </div>
-                </div>
-            </div>
-        </div>
-        
-        <aside>
-            <div id="aside right">
-                <div id="menu">
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Apkepai</p> <p class="highlighted">Naujas</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Blynai</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Desertai</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Gėrimai</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Mėsos patiekalai</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Žuvies patiekalai</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Vegetariški</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Salotos</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Sriubos</p>
-                    </div>
-                    <div class="menu-choice">
-                        <img src="/images/bullet1.gif" alt="Raktas">
-                        <p>Troškiniai</p>
-                    </div>
-                    <!--MENU-->
-                </div>
-
-                <div class="ad">
-                    <img src="/images/reklama1.jpg" alt="Reklama 1">
-                </div>
-            </div>
-        </aside>
-    </main>
-
-    <footer>
-        <div id="footer">
-            <p>&copy; Mamos receptai, 2024, Dominykas Pavlijus</p>
-        </div>
-    </footer>
-
-</div>
+        </footer>
+    </div>
 </body>
+
 </html>
