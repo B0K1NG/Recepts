@@ -9,7 +9,7 @@ This website is a simple yet elegant single-page application designed to showcas
 ## Tech Stack 💻
 
 - HTML
-- CSS
+- SCSS
 - Visual Studio Code
 - GitHub
 - Git
