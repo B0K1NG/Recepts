@@ -1,0 +1,95 @@
+article.weeks-top {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    margin-right: auto;
+
+    h2.weeks-top__title {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+        color: #4a4a4a;
+    }
+
+    .weeks-top__recipe {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        padding: 20px;
+        margin-bottom: 30px;
+
+        .recipe__main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .recipe__name {
+                font-size: 2rem;
+                color: #444;
+                margin-bottom: 20px;
+            }
+
+            .recipe__image {
+                max-width: 600px;
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+        }
+        .recipe__details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            margin-top: 20px;
+
+            .recipe__subtitle {
+                font-size: 1.4rem;
+                color: #444;
+                margin-bottom: 10px;
+            }
+
+            .recipe__ingredients {
+                list-style: disc;
+                padding-left: 20px;
+                margin-bottom: 20px;
+                font-size: 1.1rem;
+                line-height: 1.5;
+                color: #666;
+
+                li {
+                    margin-bottom: 8px;
+                }
+            }
+
+            .recipe__steps {
+                list-style: decimal;
+                padding-left: 20px;
+                font-size: 1.1rem;
+                line-height: 1.5;
+                color: #666;
+
+                li {
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    article.weeks-top {
+        max-width: 100%;
+    }
+
+    .weeks-top__recipe .recipe__main-content {
+        .recipe__image {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
