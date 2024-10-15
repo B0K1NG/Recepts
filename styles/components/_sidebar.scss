@@ -18,6 +18,15 @@
     }
 }
 
+@media (min-width: 768px) {
+    .sidebar {
+        max-width: 25em;
+        width: 80%;
+        height: auto;
+
+    }
+}
+
 .sidebar-menu {
     &__item {
         display: flex;

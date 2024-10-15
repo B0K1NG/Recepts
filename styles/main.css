@@ -154,6 +154,13 @@ body {
   margin-top: 20px;
 }
 
+@media (min-width: 768px) {
+  .sidebar {
+    max-width: 25em;
+    width: 80%;
+    height: auto;
+  }
+}
 .sidebar-menu__item {
   display: flex;
   align-items: center;
